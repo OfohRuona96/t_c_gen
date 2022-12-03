@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'teamhyena2'
+    'teamhyena2',
+    'django_countries'
 ]
 
 MIDDLEWARE = [

@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from  teamhyena2 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('teamhyena2', include('teamhyena2.urls')),
+    path('teamhyena2/', include('teamhyena2.urls')),
+    path(" ",views.signupform, name='sign-up')
 ]

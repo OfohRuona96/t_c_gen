@@ -13,9 +13,9 @@ class signinform(UserCreationForm):
         fields = ('username', 'password')
 
         def save(self, comit=True):
-           # User = super(signupform, self).save(commit=False)
-            User.username = self.cleaned_data['username']
-            User.password = self.cleaned_data['password']
+            user = super(signinform, self).save(commit=False)
+            user.username = self.cleaned_data['username']
+            user.password = self.cleaned_data['password']
 
             if comit:
                 User.save

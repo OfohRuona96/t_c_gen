@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import  Company, Company_policies , Company_policy_contacts
+from .models import  Company, Company_policies ,Company_policy_contacts
 
 # Register your models here.
 
