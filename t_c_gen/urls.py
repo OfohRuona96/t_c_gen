@@ -20,5 +20,8 @@ from  teamhyena2 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('teamhyena2/', include('teamhyena2.urls')),
+<<<<<<< HEAD
     path(" ",views.signupform, name='sign-up')
+=======
+>>>>>>> cf5adae8b891b6564df4bdeee71ebb03866f0cf0
 ]
